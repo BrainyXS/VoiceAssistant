@@ -34,3 +34,17 @@ public string GetSpeek()
     return "Executed Test Command";
 }
 ```
+
+## Register Command
+
+To Register a Class, add it to the Collection of IVoiceCommand's in Program.cs Line 15:
+```csharp
+var commands = new List<IVoiceCommand>()
+{
+    new ChromeCommand(),
+    new PlayCommand(),
+    new PauseCommand(),
+    new SkipCommand(),
+	new YourCustomCommand(); // Your Class Name Here
+};
+```
