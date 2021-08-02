@@ -45,6 +45,6 @@ var commands = new List<IVoiceCommand>()
     new PlayCommand(),
     new PauseCommand(),
     new SkipCommand(),
-	new YourCustomCommand(); // Your Class Name Here
+	new YourCustomCommand() // Your Class Name Here
 };
 ```
